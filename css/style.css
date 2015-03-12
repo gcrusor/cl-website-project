@@ -20,7 +20,7 @@
 }
 
 body {
-  color: #878787;
+  color: #878755;
   margin: 0;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -84,11 +84,11 @@ a:active {
 
 .main-header {
   padding-top: 170px;
-  height: 850px;
+  height: 600px;
   
   background: linear-gradient(#ffa949, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
-              #ffa949 url('../img/mountains.jpg') no-repeat center;
+              #ffa949 url('images/IMG_0774.jpg') no-repeat center;
               
   
   background-size: cover;
@@ -104,14 +104,16 @@ a:active {
   padding-bottom: 10px;
 }
 
-.whoami {
-  font-size: 1.25em; /* 20px/16px */
+/*.whoami {
+  font-size: 1.25em;  20px/16px 
   line-height: 1.6;  
-}
+}*/
 
 .primary-content,
 .main-header,
-.main-footer {
+.main-footer,
+.secondary-content,
+.third-content {
   text-align: center;
 }
 
@@ -123,15 +125,13 @@ a:active {
 .secondary-content {
 	padding-top: 80px;
 	padding-bottom: 70px;
-  border-bottom: 2px solid #dfe2e6;
+  /*border-bottom: 2px solid #dfe2e6;*/
 }
 
-.callout {
-  font-size: 1.25em;
-  border-bottom: 3px solid;
-  padding: 0 9px 3px;
-  margin-top: 20px;
-  display: inline-block;
+.third-content {
+  padding-top: 80px;
+  padding-bottom: 95px;
+  /*border-bottom: 2px solid #dfe2e6;*/
 }
 
 .main-footer {
@@ -147,7 +147,8 @@ a:active {
 /* Layout Styles ------------------ */
 
 .primary-content, 
-.secondary-content {
+.secondary-content,
+.third-content {
   width: 75%;
   padding-left: 50px;
   padding-right: 50px;
@@ -162,36 +163,14 @@ a:active {
   
 }
 
-/* Floated Columns ------------------ */
-
-.thepoems,
-.thepics {
-  width: 46.5%;
-}
-
-.thepics {
-  float: left;
-}
-
-.thepoems {
-  float: right;
-}
-
-/* Float Clearfix ------------------ */
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 
 /* Media Queries -------------------- */
 
 
 @media (max-width: 1024px) {
   .primary-content,
-  .secondary-content {
+  .secondary-content,
+  .third-content {
     width: 90%;
 }
 
@@ -201,15 +180,14 @@ a:active {
     margin: 50px 0 20px
 }
 
-}
-
 
 @media (max-width: 768px) {
     .primary-content,
-  .secondary-content {
-    width: 100%;
-  padding: 20px;
-  border-top: none;
+    .secondary-content,
+    .third-content {
+        width: 100%;
+        padding: 20px;
+        border-top: none;
 }
 
   .main-header {
@@ -233,17 +211,9 @@ a:active {
       display: none;
 }
 
-    .whoami {
+ /*   .whoami {
       font-size: 1rem;
-}
-
-
-    .thepoems,
-    .thepics {
-        float: none;
-        width: 100%;
-}
-
+}*/
 
     .main-footer {
       padding: 20px 0;
