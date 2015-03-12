@@ -2,11 +2,15 @@
 
 
 /*Site Basics*/
-html, body {width: 100%;
-}
+
 * {box-sizing: content-box}
 
-body {padding: 0; 
+html, body {width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0; 
 	font-family: 'Fjalla One', arial, sans-serif;
 }
 
