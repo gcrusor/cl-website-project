@@ -26,7 +26,7 @@ body {padding: 0;
 .parallax {
   display: block;
   text-align: center;
-  padding: 10em 0;
+  padding: 13em 0;
   color: white; 
   overflow: hidden;
 }
@@ -81,6 +81,11 @@ body {padding: 0;
 			line-height: 22px; 
 			margin-bottom: 15px;
 }
+
+
+
+
+/*Button Information*/
 
 button {border: 1px solid #aaa; 
 		padding: 0.75em 1.5em; 
