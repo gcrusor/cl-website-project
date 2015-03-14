@@ -38,7 +38,10 @@ body {
 .parallax h1 {font-size: 8em; 
 	text-shadow: 1px 1px 2px black; 
 	margin-bottom: 2px;
-	color: #C2C2C6;
+	color: #C2C2C9;
+	/*border: 6px solid white;*/
+	opacity: .85;
+
 }
 
 .parallax p {font-family: helvetica, sans-serif; 
