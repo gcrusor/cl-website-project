@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700);
 
 
 /*Site Basics*/
@@ -11,7 +11,7 @@ html, body {width: 100%;
 body {
 	margin: 0;
 	padding: 0; 
-	font-family: 'Fjalla One', arial, sans-serif;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 
 
@@ -19,7 +19,7 @@ body {
 
 .hero {position: relative; 
 	text-align: center;
-	
+
 }
 
 .hero-content {display: block; 
@@ -35,17 +35,19 @@ body {
   overflow: hidden;
 }
 
-.parallax h1 {font-size: 4em; 
+.parallax h1 {font-size: 8em; 
 	text-shadow: 1px 1px 2px black; 
-	margin-bottom: 15px;
+	margin-bottom: 2px;
+	color: #C2C2C6;
 }
 
-.parallax p {font-family: arial, sans-serif; font-size: 1em; 
+.parallax p {font-family: helvetica, sans-serif; 
+			font-size: 1em; 
 			text-transform: uppercase; 
 			letter-spacing: 0.1em; 
-			font-weight: bold; 
-			color: black; 
-			text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+			font-weight: normal; 
+			color: white; 
+			/*text-shadow: 0 1px 0 rgba(255,255,255,0.75);*/
 }
 
 
@@ -53,19 +55,37 @@ body {
 /*Main Images*/
 
 .chicago1 {
-	background: url('../images/chicago1.jpg') no-repeat center center;
+	background: url('../images/chicago1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+
+
 }
 
 .chicago2 {
-	background: url('../images/chicago2.jpg') no-repeat center center;
+	background: url('../images/chicago2.jpg') ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
 }
 
 .chicago3 {
-	background: url('../images/chicago3.jpg') no-repeat center center;
+	background: url('../images/chicago3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
 }
 
 .chicago4 {
-	background: url('../images/chicago4.jpg') no-repeat center center;
+	background: url('../images/chicago4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
 }
 
 .spacer {
