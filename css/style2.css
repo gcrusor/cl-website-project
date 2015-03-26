@@ -15,43 +15,50 @@ body {
 }
 
 
+
 /*Primary Content*/
 
-.hero {position: relative; 
-	text-align: center;
-
+.hero {
+		position: relative; 
+		text-align: center;
 }
 
-.hero-content {display: block; 
-				position: relative; 
-				z-index: 9999;
+.hero-content {
+		display: block; 
+		position: relative; 
+		z-index: 9999;
 }
 
 .parallax {
-  display: block;
   text-align: center;
   padding: 13em 0;
   color: white; 
   overflow: hidden;
 }
 
-.parallax h1 {font-size: 8em; 
+.parallax h1 {
+	font-size: 8em; 
 	text-shadow: 1px 1px 2px black; 
 	margin-bottom: 2px;
 	color: #C2C2C9;
 	/*border: 6px solid white;*/
-	opacity: .85;
-
+	opacity: .65;
 }
 
-.parallax p {font-family: helvetica, sans-serif; 
-			font-size: 1em; 
-			text-transform: uppercase; 
-			letter-spacing: 0.1em; 
-			font-weight: normal; 
-			color: white; 
-			/*text-shadow: 0 1px 0 rgba(255,255,255,0.75);*/
+.parallax p {
+		font-family: avenir, sans-serif; 
+		font-size: 1em; 
+		text-transform: uppercase; 
+		letter-spacing: 0.1em; 
+		font-weight: normal; 
+		color: white; 
+		display: block;
+		/*text-shadow: 0 1px 0 rgba(255,255,255,0.75);*/
 }
+
+
+
+
 
 
 
@@ -63,12 +70,11 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	width: 100%;
-
-
 }
 
 .chicago2 {
-	background: url('../images/chicago2.jpg') ;
+	background: url('../images/chicago2.jpg');
+	/*background-clip: content-box;*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -91,6 +97,7 @@ body {
 	width: 100%;
 }
 
+
 .spacer {
 	display: block; 
 	color: #333; 
@@ -99,14 +106,15 @@ body {
 }
 
 .spacer h3 {
-	font-family: 'Fjalla One', sans-serif; 
-	font-size: 2em; 
-	margin-bottom: 15px;
+		font-family: 'Fjalla One', sans-serif; 
+		font-size: 2em; 
+		margin-bottom: 15px;
 }
 
-.spacer p {font-size: 15px; 
-			line-height: 22px; 
-			margin-bottom: 15px;
+.spacer p {
+		font-size: 15px; 
+		line-height: 22px; 
+		margin-bottom: 15px;
 }
 
 
@@ -114,7 +122,8 @@ body {
 
 /*Button Information*/
 
-button {border: 1px solid #aaa; 
+button {
+		border: 1px solid #aaa; 
 		padding: 0.75em 1.5em; 
 		border-radius: 4px; 
 		background: none; 
@@ -125,30 +134,38 @@ button {border: 1px solid #aaa;
 		vertical-align: top;
 }
 
-button:hover {background: #00ace9; 
-			color: white; 
-			border-color: #00ace9; 
-			cursor: pointer;
+button:hover {
+		background: #00ace9; 
+		color: white; 
+		border-color: #00ace9; 
+		cursor: pointer;
 }
 
-button.danger {margin-left: 25px; 
-				background: #d30; 
-				color: white; 
-				border-color: #d30;
+button.danger {
+		margin-left: 25px; 
+		background: #d30; 
+		color: white; 
+		border-color: #d30;
 }
 
-button.danger:hover {background: #a00; 
-					border-color: #a00;
+button.danger:hover {
+		background: #a00; 
+		border-color: #a00;
 }
 
-.container {max-width: 960px; 
-			margin: 0 auto; 
-			width: 100%;
+.container {
+		max-width: 960px; 
+		margin: 0 auto; 
+		width: 100%;
 }
 
-.centered {text-align: center; 
-			padding-bottom: 3.75em;
+.centered {
+		text-align: center; 
+		padding-bottom: 3.75em;
 }
+
+
+/*Responsiveness and Media Queries*/
 
 
 
