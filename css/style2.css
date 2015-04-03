@@ -57,6 +57,12 @@ body {
 }
 
 
+.footer {
+		font-family: avenir, sans-serif;
+		font-size: .5em;
+		text-align: center;
+
+}
 
 
 
@@ -117,52 +123,19 @@ body {
 		margin-bottom: 15px;
 }
 
-
-
-
-/*Button Information*/
-
-button {
-		border: 1px solid #aaa; 
-		padding: 0.75em 1.5em; 
-		border-radius: 4px; 
-		background: none; 
-		font-size: 1.25em; 
-		color: #555; 
-		display: inline-block; 
-		margin-right: -5px; 
-		vertical-align: top;
-}
-
-button:hover {
-		background: #00ace9; 
-		color: white; 
-		border-color: #00ace9; 
-		cursor: pointer;
-}
-
-button.danger {
-		margin-left: 25px; 
-		background: #d30; 
-		color: white; 
-		border-color: #d30;
-}
-
-button.danger:hover {
-		background: #a00; 
-		border-color: #a00;
-}
-
 .container {
 		max-width: 960px; 
 		margin: 0 auto; 
-		width: 100%;
+		width: 60%;
 }
 
 .centered {
 		text-align: center; 
 		padding-bottom: 3.75em;
 }
+
+
+
 
 
 /*Responsiveness and Media Queries*/
